@@ -1,0 +1,151 @@
+<div class="" style="background-color: #3c5e81; padding: 20px">
+	<div class="row">
+		<div class="container">
+			<div class="vc_column-inner ">
+				<div class="wpb_wrapper" style="color: #fff">
+					<div class="cdb-section-title-holder cdb-section-title-center">
+						<h3 class="cdb-section-title medium" style="font-size: 37px; font-family: Poppins,'MS Sans Serif',Geneva,sans-serif;text-align: center">Artikel Terbaru</h3>
+					</div>
+					<div class="cdb-section-subtitle-holder cdb-section-subtitle-center" style="width: 100%">
+						<p class="cdb-section-subtitle" style="text-align: center">Belajar pemrograman lebih mudah dengan blog dimana kamu akan melihat langsung sebuah studi kasus yang bisa kamu coba.</p>
+					</div>
+					<div class="vc_empty_space" style="height: 20px">
+						<span class="vc_empty_space_inner"></span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 6 }}
+					{{ range $paginator.Pages }}
+					<div class="card" style="margin-bottom: 5px;">
+						<div class="card-content">
+							<div class="media">
+								<div class="media-left">
+									<a href="{{ .RelPermalink }}">
+										<img class="media-object" src='{{ if eq .Params.Image.src "" }}http://lorempixel.com/320/160{{else}}{{ .Params.Image.src }}{{end}}' style="width: 200px;height: 100px;object-fit:cover" alt="{{ .Title }}">
+									</a>
+								</div>
+								<div class="media-body">
+									<a class="link-videos" href="" style="color: #333;text-decoration: none">
+									</a>
+									<h4 style="font-family: Roboto;font-weight: 400;font-size: 14px" class="media-heading">
+										<a class="link-videos" href="" style="color: #333;text-decoration: none">
+											<p style="font-size: 10px;margin-bottom: 5px"> 27 Agustus 2017 Jam 09:12:57</p>
+										</a>
+										<a href="{{ .RelPermalink }}" style="font-size: 16px;font-family: Roboto;font-weight: 400;text-decoration: none" title="Apa Itu Ruby ?">{{ .Title }}
+										</a>
+									</h4>
+
+									<span style="font-size: 12px;font-family: Roboto;font-weight: 400;color: #84909f;"> Fika Ridaul Maulayya</span>
+									<br>
+									<span style="font-size: 11px;font-family: Roboto;font-weight: 400;color: #84909f;"> Dilihat 868                                        Kali</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					{{ end }}
+				</div>
+
+				<div class="col-md-3">
+					<div class="card">
+
+						<div class="card-content nopadding">
+							<label style="margin-bottom: 0px; font-size: 18px;"><i class="fa fa-stack-overflow"></i> TECHNOLOGY</label>
+							<hr style="margin-top: 10px;">
+							<div class="dw-category">
+								<div class="dw-listitem">
+									<ul>
+										<li>
+											<a href="https://daengweb.id/kategori/codeception" class="dw-item" data-action="tag-article" data-position="article-sidebar" data-id="javascript">
+												<div class="dw-logo">
+													<img src="https://daengweb.id/uploads/kategori/codeception-1534420419_32_32.png" class="img-circle">
+												</div>
+												<div class="tech-title">
+													Codeception
+													<div class="pull-right" style="padding-right: 10px">
+														<span class="badge badge-danger">1</span>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="https://daengweb.id/kategori/flutter" class="dw-item" data-action="tag-article" data-position="article-sidebar" data-id="javascript">
+												<div class="dw-logo">
+													<img src="https://daengweb.id/uploads/kategori/flutter-1534420128_32_32.png" class="img-circle">
+												</div>
+												<div class="tech-title">
+													Flutter
+													<div class="pull-right" style="padding-right: 10px">
+														<span class="badge badge-danger">5</span>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="https://daengweb.id/kategori/git" class="dw-item" data-action="tag-article" data-position="article-sidebar" data-id="javascript">
+												<div class="dw-logo">
+													<img src="https://daengweb.id/uploads/kategori/git-1534420242_32_32.png" class="img-circle">
+												</div>
+												<div class="tech-title">
+													Git
+													<div class="pull-right" style="padding-right: 10px">
+														<span class="badge badge-danger">1</span>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="https://daengweb.id/kategori/laravel" class="dw-item" data-action="tag-article" data-position="article-sidebar" data-id="javascript">
+												<div class="dw-logo">
+													<img src="https://daengweb.id/uploads/kategori/laravel-1534420335_32_32.png" class="img-circle">
+												</div>
+												<div class="tech-title">
+													Laravel
+													<div class="pull-right" style="padding-right: 10px">
+														<span class="badge badge-danger">53</span>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="https://daengweb.id/kategori/linux" class="dw-item" data-action="tag-article" data-position="article-sidebar" data-id="javascript">
+												<div class="dw-logo">
+													<img src="https://daengweb.id/uploads/kategori/linux-1536381263_32_32.jpg" class="img-circle">
+												</div>
+												<div class="tech-title">
+													Linux
+													<div class="pull-right" style="padding-right: 10px">
+														<span class="badge badge-danger">1</span>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="https://daengweb.id/kategori/php" class="dw-item" data-action="tag-article" data-position="article-sidebar" data-id="javascript">
+												<div class="dw-logo">
+													<img src="https://daengweb.id/uploads/kategori/php-1534420209_32_32.png" class="img-circle">
+												</div>
+												<div class="tech-title">
+													PHP
+													<div class="pull-right" style="padding-right: 10px">
+														<span class="badge badge-danger">4</span>
+													</div>
+												</div>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="text-align: center;margin-top: 25px;margin-bottom: 10px">
+		<a href="https://www.bismalabs.co.id/paket/" class="btn btn-info btn-md waves-effect waves-light" style="border-radius: 25px"> Lihat Artikel lainnya <i class="fa fa-long-arrow-right"></i>
+		</a>
+	</div>
+</div>
