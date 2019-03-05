@@ -1,0 +1,8 @@
+[submodule "public/publoc"]
+	path = public/publoc
+	url = https://github.com/ardianta/blog.git
+	branch = master
+[submodule "public/public"]
+	path = public/public
+	url = https://github.com/ardianta/blog.git
+	branch = master
