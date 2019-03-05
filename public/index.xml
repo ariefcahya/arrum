@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juragan Code</title>
+    <link>https://www.juragancode.id/</link>
+    <description>Recent content on Juragan Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Tue, 05 Mar 2019 23:29:40 +0700</lastBuildDate>
+    
+	<atom:link href="https://www.juragancode.id/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test Artikel</title>
+      <link>https://www.juragancode.id/post/test-artikel/</link>
+      <pubDate>Tue, 05 Mar 2019 23:29:40 +0700</pubDate>
+      
+      <guid>https://www.juragancode.id/post/test-artikel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
